@@ -22,8 +22,8 @@ Partial Class FrmStaff
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.TxtStaffID = New System.Windows.Forms.TextBox()
-        Me.LblID = New System.Windows.Forms.Label()
+        Me.TxtId = New System.Windows.Forms.TextBox()
+        Me.LblId = New System.Windows.Forms.Label()
         Me.TxtFirstName = New System.Windows.Forms.TextBox()
         Me.LblFirstName = New System.Windows.Forms.Label()
         Me.TxtLastName = New System.Windows.Forms.TextBox()
@@ -40,21 +40,21 @@ Partial Class FrmStaff
         Me.LblArea = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'TxtStaffID
+        'TxtId
         '
-        Me.TxtStaffID.Location = New System.Drawing.Point(78, 12)
-        Me.TxtStaffID.Name = "TxtStaffID"
-        Me.TxtStaffID.Size = New System.Drawing.Size(100, 20)
-        Me.TxtStaffID.TabIndex = 3
+        Me.TxtId.Location = New System.Drawing.Point(78, 12)
+        Me.TxtId.Name = "TxtId"
+        Me.TxtId.Size = New System.Drawing.Size(100, 20)
+        Me.TxtId.TabIndex = 3
         '
-        'LblID
+        'LblId
         '
-        Me.LblID.AutoSize = True
-        Me.LblID.Location = New System.Drawing.Point(11, 15)
-        Me.LblID.Name = "LblID"
-        Me.LblID.Size = New System.Drawing.Size(18, 13)
-        Me.LblID.TabIndex = 2
-        Me.LblID.Text = "ID"
+        Me.LblId.AutoSize = True
+        Me.LblId.Location = New System.Drawing.Point(11, 15)
+        Me.LblId.Name = "LblId"
+        Me.LblId.Size = New System.Drawing.Size(18, 13)
+        Me.LblId.TabIndex = 2
+        Me.LblId.Text = "ID"
         '
         'TxtFirstName
         '
@@ -90,7 +90,7 @@ Partial Class FrmStaff
         '
         'TxtMobileNumber
         '
-        Me.TxtMobileNumber.Location = New System.Drawing.Point(78, 90)
+        Me.TxtMobileNumber.Location = New System.Drawing.Point(106, 90)
         Me.TxtMobileNumber.Name = "TxtMobileNumber"
         Me.TxtMobileNumber.Size = New System.Drawing.Size(100, 20)
         Me.TxtMobileNumber.TabIndex = 9
@@ -187,8 +187,8 @@ Partial Class FrmStaff
         Me.Controls.Add(Me.LblLastName)
         Me.Controls.Add(Me.TxtFirstName)
         Me.Controls.Add(Me.LblFirstName)
-        Me.Controls.Add(Me.TxtStaffID)
-        Me.Controls.Add(Me.LblID)
+        Me.Controls.Add(Me.TxtId)
+        Me.Controls.Add(Me.LblId)
         Me.Name = "FrmStaff"
         Me.Text = "Staff"
         Me.ResumeLayout(False)
@@ -196,8 +196,8 @@ Partial Class FrmStaff
 
     End Sub
 
-    Friend WithEvents TxtStaffID As TextBox
-    Friend WithEvents LblID As Label
+    Friend WithEvents TxtId As TextBox
+    Friend WithEvents LblId As Label
     Friend WithEvents TxtFirstName As TextBox
     Friend WithEvents LblFirstName As Label
     Friend WithEvents TxtLastName As TextBox

@@ -22,9 +22,9 @@ Partial Class FrmNewMember
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.LblID = New System.Windows.Forms.Label()
-        Me.TxtID = New System.Windows.Forms.TextBox()
-        Me.TxtFiestName = New System.Windows.Forms.TextBox()
+        Me.LblId = New System.Windows.Forms.Label()
+        Me.TxtId = New System.Windows.Forms.TextBox()
+        Me.TxtFirstName = New System.Windows.Forms.TextBox()
         Me.LblFirstName = New System.Windows.Forms.Label()
         Me.TxtLastName = New System.Windows.Forms.TextBox()
         Me.LblLastName = New System.Windows.Forms.Label()
@@ -48,28 +48,28 @@ Partial Class FrmNewMember
         Me.LblJoiningDate = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'LblID
+        'LblId
         '
-        Me.LblID.AutoSize = True
-        Me.LblID.Location = New System.Drawing.Point(13, 13)
-        Me.LblID.Name = "LblID"
-        Me.LblID.Size = New System.Drawing.Size(18, 13)
-        Me.LblID.TabIndex = 0
-        Me.LblID.Text = "ID"
+        Me.LblId.AutoSize = True
+        Me.LblId.Location = New System.Drawing.Point(13, 13)
+        Me.LblId.Name = "LblId"
+        Me.LblId.Size = New System.Drawing.Size(18, 13)
+        Me.LblId.TabIndex = 0
+        Me.LblId.Text = "ID"
         '
-        'TxtID
+        'TxtId
         '
-        Me.TxtID.Location = New System.Drawing.Point(37, 10)
-        Me.TxtID.Name = "TxtID"
-        Me.TxtID.Size = New System.Drawing.Size(100, 20)
-        Me.TxtID.TabIndex = 1
+        Me.TxtId.Location = New System.Drawing.Point(37, 10)
+        Me.TxtId.Name = "TxtId"
+        Me.TxtId.Size = New System.Drawing.Size(100, 20)
+        Me.TxtId.TabIndex = 1
         '
-        'TxtFiestName
+        'TxtFirstName
         '
-        Me.TxtFiestName.Location = New System.Drawing.Point(71, 36)
-        Me.TxtFiestName.Name = "TxtFiestName"
-        Me.TxtFiestName.Size = New System.Drawing.Size(100, 20)
-        Me.TxtFiestName.TabIndex = 3
+        Me.TxtFirstName.Location = New System.Drawing.Point(71, 36)
+        Me.TxtFirstName.Name = "TxtFirstName"
+        Me.TxtFirstName.Size = New System.Drawing.Size(100, 20)
+        Me.TxtFirstName.TabIndex = 3
         '
         'LblFirstName
         '
@@ -211,7 +211,7 @@ Partial Class FrmNewMember
         '
         'TxtMemberType
         '
-        Me.TxtMemberType.Location = New System.Drawing.Point(71, 320)
+        Me.TxtMemberType.Location = New System.Drawing.Point(88, 320)
         Me.TxtMemberType.Name = "TxtMemberType"
         Me.TxtMemberType.Size = New System.Drawing.Size(100, 20)
         Me.TxtMemberType.TabIndex = 21
@@ -227,7 +227,7 @@ Partial Class FrmNewMember
         '
         'TxtJoiningDate
         '
-        Me.TxtJoiningDate.Location = New System.Drawing.Point(71, 346)
+        Me.TxtJoiningDate.Location = New System.Drawing.Point(88, 346)
         Me.TxtJoiningDate.Name = "TxtJoiningDate"
         Me.TxtJoiningDate.Size = New System.Drawing.Size(100, 20)
         Me.TxtJoiningDate.TabIndex = 23
@@ -266,10 +266,10 @@ Partial Class FrmNewMember
         Me.Controls.Add(Me.LblMobileNumber)
         Me.Controls.Add(Me.TxtLastName)
         Me.Controls.Add(Me.LblLastName)
-        Me.Controls.Add(Me.TxtFiestName)
+        Me.Controls.Add(Me.TxtFirstName)
         Me.Controls.Add(Me.LblFirstName)
-        Me.Controls.Add(Me.TxtID)
-        Me.Controls.Add(Me.LblID)
+        Me.Controls.Add(Me.TxtId)
+        Me.Controls.Add(Me.LblId)
         Me.Name = "FrmNewMember"
         Me.Text = "New Member"
         Me.ResumeLayout(False)
@@ -277,9 +277,9 @@ Partial Class FrmNewMember
 
     End Sub
 
-    Friend WithEvents LblID As Label
-    Friend WithEvents TxtID As TextBox
-    Friend WithEvents TxtFiestName As TextBox
+    Friend WithEvents LblId As Label
+    Friend WithEvents TxtId As TextBox
+    Friend WithEvents TxtFirstName As TextBox
     Friend WithEvents LblFirstName As Label
     Friend WithEvents TxtLastName As TextBox
     Friend WithEvents LblLastName As Label

@@ -24,14 +24,14 @@ Partial Class FrmMDI
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.InventoryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewBookToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransactionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewMemberToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CreateStaffToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CreateStaffToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewBookToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewMemberToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -49,58 +49,58 @@ Partial Class FrmMDI
         '
         Me.InventoryToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewBookToolStripMenuItem})
         Me.InventoryToolStripMenuItem.Name = "InventoryToolStripMenuItem"
-        Me.InventoryToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
+        Me.InventoryToolStripMenuItem.Size = New System.Drawing.Size(73, 22)
         Me.InventoryToolStripMenuItem.Text = "&Inventory"
+        '
+        'NewBookToolStripMenuItem
+        '
+        Me.NewBookToolStripMenuItem.Name = "NewBookToolStripMenuItem"
+        Me.NewBookToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
+        Me.NewBookToolStripMenuItem.Text = "&New Book"
         '
         'TransactionToolStripMenuItem
         '
         Me.TransactionToolStripMenuItem.Name = "TransactionToolStripMenuItem"
-        Me.TransactionToolStripMenuItem.Size = New System.Drawing.Size(80, 20)
+        Me.TransactionToolStripMenuItem.Size = New System.Drawing.Size(86, 22)
         Me.TransactionToolStripMenuItem.Text = "&Transaction"
         '
         'ReportsToolStripMenuItem
         '
         Me.ReportsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewMemberToolStripMenuItem})
         Me.ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
-        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
+        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(71, 22)
         Me.ReportsToolStripMenuItem.Text = "&Members"
+        '
+        'NewMemberToolStripMenuItem
+        '
+        Me.NewMemberToolStripMenuItem.Name = "NewMemberToolStripMenuItem"
+        Me.NewMemberToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
+        Me.NewMemberToolStripMenuItem.Text = "&New Member"
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CreateStaffToolStripMenuItem})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(43, 20)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(45, 22)
         Me.HelpToolStripMenuItem.Text = "&Staff"
+        '
+        'CreateStaffToolStripMenuItem
+        '
+        Me.CreateStaffToolStripMenuItem.Name = "CreateStaffToolStripMenuItem"
+        Me.CreateStaffToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.CreateStaffToolStripMenuItem.Text = "&Create Staff"
         '
         'ReportToolStripMenuItem
         '
         Me.ReportToolStripMenuItem.Name = "ReportToolStripMenuItem"
-        Me.ReportToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
+        Me.ReportToolStripMenuItem.Size = New System.Drawing.Size(58, 22)
         Me.ReportToolStripMenuItem.Text = "&Report"
         '
         'HelpToolStripMenuItem1
         '
         Me.HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1"
-        Me.HelpToolStripMenuItem1.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem1.Size = New System.Drawing.Size(46, 22)
         Me.HelpToolStripMenuItem1.Text = "&Help"
-        '
-        'CreateStaffToolStripMenuItem
-        '
-        Me.CreateStaffToolStripMenuItem.Name = "CreateStaffToolStripMenuItem"
-        Me.CreateStaffToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.CreateStaffToolStripMenuItem.Text = "&Create Staff"
-        '
-        'NewBookToolStripMenuItem
-        '
-        Me.NewBookToolStripMenuItem.Name = "NewBookToolStripMenuItem"
-        Me.NewBookToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.NewBookToolStripMenuItem.Text = "&New Book"
-        '
-        'NewMemberToolStripMenuItem
-        '
-        Me.NewMemberToolStripMenuItem.Name = "NewMemberToolStripMenuItem"
-        Me.NewMemberToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.NewMemberToolStripMenuItem.Text = "&New Member"
         '
         'FrmMDI
         '

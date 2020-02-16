@@ -22,8 +22,8 @@ Partial Class FrmNewBook
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TxtID = New System.Windows.Forms.TextBox()
-        Me.LblID = New System.Windows.Forms.Label()
+        Me.TxtId = New System.Windows.Forms.TextBox()
+        Me.LblId = New System.Windows.Forms.Label()
         Me.TxtTitle = New System.Windows.Forms.TextBox()
         Me.LblTitle = New System.Windows.Forms.Label()
         Me.TxtEdition = New System.Windows.Forms.TextBox()
@@ -34,25 +34,25 @@ Partial Class FrmNewBook
         Me.LblAuthor = New System.Windows.Forms.Label()
         Me.TxtCompensationPrice = New System.Windows.Forms.TextBox()
         Me.LblCompensationPrice = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TxtBookType = New System.Windows.Forms.TextBox()
         Me.LblBookType = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'TxtID
+        'TxtId
         '
-        Me.TxtID.Location = New System.Drawing.Point(77, 12)
-        Me.TxtID.Name = "TxtID"
-        Me.TxtID.Size = New System.Drawing.Size(100, 20)
-        Me.TxtID.TabIndex = 3
+        Me.TxtId.Location = New System.Drawing.Point(77, 12)
+        Me.TxtId.Name = "TxtId"
+        Me.TxtId.Size = New System.Drawing.Size(100, 20)
+        Me.TxtId.TabIndex = 3
         '
-        'LblID
+        'LblId
         '
-        Me.LblID.AutoSize = True
-        Me.LblID.Location = New System.Drawing.Point(10, 15)
-        Me.LblID.Name = "LblID"
-        Me.LblID.Size = New System.Drawing.Size(18, 13)
-        Me.LblID.TabIndex = 2
-        Me.LblID.Text = "ID"
+        Me.LblId.AutoSize = True
+        Me.LblId.Location = New System.Drawing.Point(10, 15)
+        Me.LblId.Name = "LblId"
+        Me.LblId.Size = New System.Drawing.Size(18, 13)
+        Me.LblId.TabIndex = 2
+        Me.LblId.Text = "ID"
         '
         'TxtTitle
         '
@@ -120,7 +120,7 @@ Partial Class FrmNewBook
         '
         'TxtCompensationPrice
         '
-        Me.TxtCompensationPrice.Location = New System.Drawing.Point(77, 185)
+        Me.TxtCompensationPrice.Location = New System.Drawing.Point(116, 185)
         Me.TxtCompensationPrice.Name = "TxtCompensationPrice"
         Me.TxtCompensationPrice.Size = New System.Drawing.Size(99, 20)
         Me.TxtCompensationPrice.TabIndex = 13
@@ -134,12 +134,12 @@ Partial Class FrmNewBook
         Me.LblCompensationPrice.TabIndex = 12
         Me.LblCompensationPrice.Text = "Compensation Price"
         '
-        'TextBox1
+        'TxtBookType
         '
-        Me.TextBox1.Location = New System.Drawing.Point(77, 220)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 15
+        Me.TxtBookType.Location = New System.Drawing.Point(77, 220)
+        Me.TxtBookType.Name = "TxtBookType"
+        Me.TxtBookType.Size = New System.Drawing.Size(100, 20)
+        Me.TxtBookType.TabIndex = 15
         '
         'LblBookType
         '
@@ -155,7 +155,7 @@ Partial Class FrmNewBook
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.TxtBookType)
         Me.Controls.Add(Me.LblBookType)
         Me.Controls.Add(Me.TxtCompensationPrice)
         Me.Controls.Add(Me.LblCompensationPrice)
@@ -167,8 +167,8 @@ Partial Class FrmNewBook
         Me.Controls.Add(Me.LblEdition)
         Me.Controls.Add(Me.TxtTitle)
         Me.Controls.Add(Me.LblTitle)
-        Me.Controls.Add(Me.TxtID)
-        Me.Controls.Add(Me.LblID)
+        Me.Controls.Add(Me.TxtId)
+        Me.Controls.Add(Me.LblId)
         Me.Name = "FrmNewBook"
         Me.Text = "New Book"
         Me.ResumeLayout(False)
@@ -176,8 +176,8 @@ Partial Class FrmNewBook
 
     End Sub
 
-    Friend WithEvents TxtID As TextBox
-    Friend WithEvents LblID As Label
+    Friend WithEvents TxtId As TextBox
+    Friend WithEvents LblId As Label
     Friend WithEvents TxtTitle As TextBox
     Friend WithEvents LblTitle As Label
     Friend WithEvents TxtEdition As TextBox
@@ -188,6 +188,6 @@ Partial Class FrmNewBook
     Friend WithEvents LblAuthor As Label
     Friend WithEvents TxtCompensationPrice As TextBox
     Friend WithEvents LblCompensationPrice As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TxtBookType As TextBox
     Friend WithEvents LblBookType As Label
 End Class
