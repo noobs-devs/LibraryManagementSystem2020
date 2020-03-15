@@ -42,7 +42,7 @@ Partial Class FrmStaff
         '
         'TxtId
         '
-        Me.TxtId.Location = New System.Drawing.Point(78, 12)
+        Me.TxtId.Location = New System.Drawing.Point(95, 41)
         Me.TxtId.Name = "TxtId"
         Me.TxtId.Size = New System.Drawing.Size(100, 20)
         Me.TxtId.TabIndex = 3
@@ -50,7 +50,7 @@ Partial Class FrmStaff
         'LblId
         '
         Me.LblId.AutoSize = True
-        Me.LblId.Location = New System.Drawing.Point(11, 15)
+        Me.LblId.Location = New System.Drawing.Point(28, 44)
         Me.LblId.Name = "LblId"
         Me.LblId.Size = New System.Drawing.Size(18, 13)
         Me.LblId.TabIndex = 2
@@ -58,7 +58,7 @@ Partial Class FrmStaff
         '
         'TxtFirstName
         '
-        Me.TxtFirstName.Location = New System.Drawing.Point(78, 38)
+        Me.TxtFirstName.Location = New System.Drawing.Point(95, 67)
         Me.TxtFirstName.Name = "TxtFirstName"
         Me.TxtFirstName.Size = New System.Drawing.Size(100, 20)
         Me.TxtFirstName.TabIndex = 5
@@ -66,7 +66,7 @@ Partial Class FrmStaff
         'LblFirstName
         '
         Me.LblFirstName.AutoSize = True
-        Me.LblFirstName.Location = New System.Drawing.Point(11, 41)
+        Me.LblFirstName.Location = New System.Drawing.Point(28, 70)
         Me.LblFirstName.Name = "LblFirstName"
         Me.LblFirstName.Size = New System.Drawing.Size(57, 13)
         Me.LblFirstName.TabIndex = 4
@@ -74,7 +74,7 @@ Partial Class FrmStaff
         '
         'TxtLastName
         '
-        Me.TxtLastName.Location = New System.Drawing.Point(78, 64)
+        Me.TxtLastName.Location = New System.Drawing.Point(95, 93)
         Me.TxtLastName.Name = "TxtLastName"
         Me.TxtLastName.Size = New System.Drawing.Size(100, 20)
         Me.TxtLastName.TabIndex = 7
@@ -82,7 +82,7 @@ Partial Class FrmStaff
         'LblLastName
         '
         Me.LblLastName.AutoSize = True
-        Me.LblLastName.Location = New System.Drawing.Point(11, 67)
+        Me.LblLastName.Location = New System.Drawing.Point(28, 96)
         Me.LblLastName.Name = "LblLastName"
         Me.LblLastName.Size = New System.Drawing.Size(58, 13)
         Me.LblLastName.TabIndex = 6
@@ -90,7 +90,7 @@ Partial Class FrmStaff
         '
         'TxtMobileNumber
         '
-        Me.TxtMobileNumber.Location = New System.Drawing.Point(106, 90)
+        Me.TxtMobileNumber.Location = New System.Drawing.Point(123, 119)
         Me.TxtMobileNumber.Name = "TxtMobileNumber"
         Me.TxtMobileNumber.Size = New System.Drawing.Size(100, 20)
         Me.TxtMobileNumber.TabIndex = 9
@@ -98,7 +98,7 @@ Partial Class FrmStaff
         'LblMobileNumber
         '
         Me.LblMobileNumber.AutoSize = True
-        Me.LblMobileNumber.Location = New System.Drawing.Point(11, 93)
+        Me.LblMobileNumber.Location = New System.Drawing.Point(28, 122)
         Me.LblMobileNumber.Name = "LblMobileNumber"
         Me.LblMobileNumber.Size = New System.Drawing.Size(78, 13)
         Me.LblMobileNumber.TabIndex = 8
@@ -106,7 +106,7 @@ Partial Class FrmStaff
         '
         'TxtCity
         '
-        Me.TxtCity.Location = New System.Drawing.Point(78, 116)
+        Me.TxtCity.Location = New System.Drawing.Point(95, 145)
         Me.TxtCity.Name = "TxtCity"
         Me.TxtCity.Size = New System.Drawing.Size(100, 20)
         Me.TxtCity.TabIndex = 11
@@ -114,7 +114,7 @@ Partial Class FrmStaff
         'LblCity
         '
         Me.LblCity.AutoSize = True
-        Me.LblCity.Location = New System.Drawing.Point(11, 119)
+        Me.LblCity.Location = New System.Drawing.Point(28, 148)
         Me.LblCity.Name = "LblCity"
         Me.LblCity.Size = New System.Drawing.Size(24, 13)
         Me.LblCity.TabIndex = 10
@@ -122,7 +122,7 @@ Partial Class FrmStaff
         '
         'TxtPinCode
         '
-        Me.TxtPinCode.Location = New System.Drawing.Point(78, 142)
+        Me.TxtPinCode.Location = New System.Drawing.Point(95, 171)
         Me.TxtPinCode.Name = "TxtPinCode"
         Me.TxtPinCode.Size = New System.Drawing.Size(100, 20)
         Me.TxtPinCode.TabIndex = 13
@@ -130,7 +130,7 @@ Partial Class FrmStaff
         'LblPinCode
         '
         Me.LblPinCode.AutoSize = True
-        Me.LblPinCode.Location = New System.Drawing.Point(11, 145)
+        Me.LblPinCode.Location = New System.Drawing.Point(28, 174)
         Me.LblPinCode.Name = "LblPinCode"
         Me.LblPinCode.Size = New System.Drawing.Size(50, 13)
         Me.LblPinCode.TabIndex = 12
@@ -138,7 +138,7 @@ Partial Class FrmStaff
         '
         'TxtState
         '
-        Me.TxtState.Location = New System.Drawing.Point(78, 168)
+        Me.TxtState.Location = New System.Drawing.Point(95, 197)
         Me.TxtState.Name = "TxtState"
         Me.TxtState.Size = New System.Drawing.Size(100, 20)
         Me.TxtState.TabIndex = 15
@@ -146,7 +146,7 @@ Partial Class FrmStaff
         'LblState
         '
         Me.LblState.AutoSize = True
-        Me.LblState.Location = New System.Drawing.Point(11, 171)
+        Me.LblState.Location = New System.Drawing.Point(28, 200)
         Me.LblState.Name = "LblState"
         Me.LblState.Size = New System.Drawing.Size(32, 13)
         Me.LblState.TabIndex = 14
@@ -154,7 +154,7 @@ Partial Class FrmStaff
         '
         'TxtArea
         '
-        Me.TxtArea.Location = New System.Drawing.Point(78, 194)
+        Me.TxtArea.Location = New System.Drawing.Point(95, 223)
         Me.TxtArea.Name = "TxtArea"
         Me.TxtArea.Size = New System.Drawing.Size(100, 20)
         Me.TxtArea.TabIndex = 17
@@ -162,7 +162,7 @@ Partial Class FrmStaff
         'LblArea
         '
         Me.LblArea.AutoSize = True
-        Me.LblArea.Location = New System.Drawing.Point(11, 197)
+        Me.LblArea.Location = New System.Drawing.Point(28, 226)
         Me.LblArea.Name = "LblArea"
         Me.LblArea.Size = New System.Drawing.Size(29, 13)
         Me.LblArea.TabIndex = 16
