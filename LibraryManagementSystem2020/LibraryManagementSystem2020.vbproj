@@ -51,6 +51,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -84,6 +85,12 @@
       <DependentUpon>FrmNewBook.vb</DependentUpon>
     </Compile>
     <Compile Include="FrmNewBook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowBook.Designer.vb">
+      <DependentUpon>FrmShowBook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowBook.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Member.Designer.vb">
@@ -120,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmNewBook.resx">
       <DependentUpon>FrmNewBook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowBook.resx">
+      <DependentUpon>FrmShowBook.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Member.resx">
       <DependentUpon>Member.vb</DependentUpon>

@@ -36,11 +36,14 @@ Partial Class FrmNewBook
         Me.LblCompensationPrice = New System.Windows.Forms.Label()
         Me.TxtBookType = New System.Windows.Forms.TextBox()
         Me.LblBookType = New System.Windows.Forms.Label()
+        Me.BtnSubmit = New System.Windows.Forms.Button()
+        Me.BtnClear = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'TxtId
         '
-        Me.TxtId.Location = New System.Drawing.Point(77, 12)
+        Me.TxtId.Location = New System.Drawing.Point(446, 437)
         Me.TxtId.Name = "TxtId"
         Me.TxtId.Size = New System.Drawing.Size(100, 20)
         Me.TxtId.TabIndex = 3
@@ -48,7 +51,7 @@ Partial Class FrmNewBook
         'LblId
         '
         Me.LblId.AutoSize = True
-        Me.LblId.Location = New System.Drawing.Point(10, 15)
+        Me.LblId.Location = New System.Drawing.Point(400, 440)
         Me.LblId.Name = "LblId"
         Me.LblId.Size = New System.Drawing.Size(18, 13)
         Me.LblId.TabIndex = 2
@@ -56,105 +59,174 @@ Partial Class FrmNewBook
         '
         'TxtTitle
         '
-        Me.TxtTitle.Location = New System.Drawing.Point(77, 47)
+        Me.TxtTitle.BackColor = System.Drawing.SystemColors.Window
+        Me.TxtTitle.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TxtTitle.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtTitle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TxtTitle.Location = New System.Drawing.Point(293, 75)
         Me.TxtTitle.Name = "TxtTitle"
-        Me.TxtTitle.Size = New System.Drawing.Size(100, 20)
+        Me.TxtTitle.Size = New System.Drawing.Size(263, 31)
         Me.TxtTitle.TabIndex = 5
         '
         'LblTitle
         '
         Me.LblTitle.AutoSize = True
-        Me.LblTitle.Location = New System.Drawing.Point(10, 50)
+        Me.LblTitle.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblTitle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblTitle.Location = New System.Drawing.Point(165, 78)
         Me.LblTitle.Name = "LblTitle"
-        Me.LblTitle.Size = New System.Drawing.Size(27, 13)
+        Me.LblTitle.Size = New System.Drawing.Size(115, 28)
         Me.LblTitle.TabIndex = 4
-        Me.LblTitle.Text = "Title"
+        Me.LblTitle.Text = "Book Title"
         '
         'TxtEdition
         '
-        Me.TxtEdition.Location = New System.Drawing.Point(77, 81)
+        Me.TxtEdition.BackColor = System.Drawing.SystemColors.Window
+        Me.TxtEdition.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtEdition.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TxtEdition.Location = New System.Drawing.Point(293, 115)
         Me.TxtEdition.Name = "TxtEdition"
-        Me.TxtEdition.Size = New System.Drawing.Size(100, 20)
+        Me.TxtEdition.Size = New System.Drawing.Size(263, 31)
         Me.TxtEdition.TabIndex = 7
         '
         'LblEdition
         '
         Me.LblEdition.AutoSize = True
-        Me.LblEdition.Location = New System.Drawing.Point(10, 84)
+        Me.LblEdition.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblEdition.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblEdition.Location = New System.Drawing.Point(193, 118)
         Me.LblEdition.Name = "LblEdition"
-        Me.LblEdition.Size = New System.Drawing.Size(39, 13)
+        Me.LblEdition.Size = New System.Drawing.Size(87, 28)
         Me.LblEdition.TabIndex = 6
         Me.LblEdition.Text = "Edition"
         '
         'TxtPublisher
         '
-        Me.TxtPublisher.Location = New System.Drawing.Point(77, 116)
+        Me.TxtPublisher.BackColor = System.Drawing.SystemColors.Window
+        Me.TxtPublisher.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtPublisher.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TxtPublisher.Location = New System.Drawing.Point(293, 155)
         Me.TxtPublisher.Name = "TxtPublisher"
-        Me.TxtPublisher.Size = New System.Drawing.Size(100, 20)
+        Me.TxtPublisher.Size = New System.Drawing.Size(263, 31)
         Me.TxtPublisher.TabIndex = 9
         '
         'LblPublisher
         '
         Me.LblPublisher.AutoSize = True
-        Me.LblPublisher.Location = New System.Drawing.Point(10, 119)
+        Me.LblPublisher.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblPublisher.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblPublisher.Location = New System.Drawing.Point(172, 158)
         Me.LblPublisher.Name = "LblPublisher"
-        Me.LblPublisher.Size = New System.Drawing.Size(50, 13)
+        Me.LblPublisher.Size = New System.Drawing.Size(108, 28)
         Me.LblPublisher.TabIndex = 8
         Me.LblPublisher.Text = "Publisher"
         '
         'TxtAuthor
         '
-        Me.TxtAuthor.Location = New System.Drawing.Point(77, 151)
+        Me.TxtAuthor.BackColor = System.Drawing.SystemColors.Window
+        Me.TxtAuthor.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtAuthor.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TxtAuthor.Location = New System.Drawing.Point(293, 196)
         Me.TxtAuthor.Name = "TxtAuthor"
-        Me.TxtAuthor.Size = New System.Drawing.Size(100, 20)
+        Me.TxtAuthor.Size = New System.Drawing.Size(263, 31)
         Me.TxtAuthor.TabIndex = 11
         '
         'LblAuthor
         '
         Me.LblAuthor.AutoSize = True
-        Me.LblAuthor.Location = New System.Drawing.Point(10, 154)
+        Me.LblAuthor.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblAuthor.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblAuthor.Location = New System.Drawing.Point(197, 199)
         Me.LblAuthor.Name = "LblAuthor"
-        Me.LblAuthor.Size = New System.Drawing.Size(38, 13)
+        Me.LblAuthor.Size = New System.Drawing.Size(83, 28)
         Me.LblAuthor.TabIndex = 10
         Me.LblAuthor.Text = "Author"
         '
         'TxtCompensationPrice
         '
-        Me.TxtCompensationPrice.Location = New System.Drawing.Point(116, 185)
+        Me.TxtCompensationPrice.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtCompensationPrice.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TxtCompensationPrice.Location = New System.Drawing.Point(294, 237)
         Me.TxtCompensationPrice.Name = "TxtCompensationPrice"
-        Me.TxtCompensationPrice.Size = New System.Drawing.Size(99, 20)
+        Me.TxtCompensationPrice.Size = New System.Drawing.Size(99, 31)
         Me.TxtCompensationPrice.TabIndex = 13
         '
         'LblCompensationPrice
         '
         Me.LblCompensationPrice.AutoSize = True
-        Me.LblCompensationPrice.Location = New System.Drawing.Point(9, 188)
+        Me.LblCompensationPrice.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblCompensationPrice.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblCompensationPrice.Location = New System.Drawing.Point(67, 240)
         Me.LblCompensationPrice.Name = "LblCompensationPrice"
-        Me.LblCompensationPrice.Size = New System.Drawing.Size(101, 13)
+        Me.LblCompensationPrice.Size = New System.Drawing.Size(213, 28)
         Me.LblCompensationPrice.TabIndex = 12
         Me.LblCompensationPrice.Text = "Compensation Price"
         '
         'TxtBookType
         '
-        Me.TxtBookType.Location = New System.Drawing.Point(77, 220)
+        Me.TxtBookType.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtBookType.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TxtBookType.Location = New System.Drawing.Point(294, 279)
         Me.TxtBookType.Name = "TxtBookType"
-        Me.TxtBookType.Size = New System.Drawing.Size(100, 20)
+        Me.TxtBookType.Size = New System.Drawing.Size(114, 31)
         Me.TxtBookType.TabIndex = 15
         '
         'LblBookType
         '
         Me.LblBookType.AutoSize = True
-        Me.LblBookType.Location = New System.Drawing.Point(10, 223)
+        Me.LblBookType.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblBookType.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblBookType.Location = New System.Drawing.Point(163, 282)
         Me.LblBookType.Name = "LblBookType"
-        Me.LblBookType.Size = New System.Drawing.Size(59, 13)
+        Me.LblBookType.Size = New System.Drawing.Size(117, 28)
         Me.LblBookType.TabIndex = 14
         Me.LblBookType.Text = "Book Type"
+        '
+        'BtnSubmit
+        '
+        Me.BtnSubmit.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.BtnSubmit.Font = New System.Drawing.Font("Cooper Black", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnSubmit.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.BtnSubmit.Location = New System.Drawing.Point(241, 352)
+        Me.BtnSubmit.Name = "BtnSubmit"
+        Me.BtnSubmit.Size = New System.Drawing.Size(136, 36)
+        Me.BtnSubmit.TabIndex = 16
+        Me.BtnSubmit.Text = "SUBMIT"
+        Me.BtnSubmit.UseVisualStyleBackColor = False
+        '
+        'BtnClear
+        '
+        Me.BtnClear.BackColor = System.Drawing.SystemColors.MenuBar
+        Me.BtnClear.Font = New System.Drawing.Font("Cooper Black", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnClear.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.BtnClear.Location = New System.Drawing.Point(457, 352)
+        Me.BtnClear.Name = "BtnClear"
+        Me.BtnClear.Size = New System.Drawing.Size(136, 36)
+        Me.BtnClear.TabIndex = 17
+        Me.BtnClear.Text = "CLEAR"
+        Me.BtnClear.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Britannic Bold", 9.75!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.Label1.Location = New System.Drawing.Point(12, 22)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(693, 15)
+        Me.Label1.TabIndex = 18
+        Me.Label1.Text = "___________________________ Please Enter Following Details to Register New Book _" &
+    "__________________________"
         '
         'FrmNewBook
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackColor = System.Drawing.Color.NavajoWhite
+        Me.ClientSize = New System.Drawing.Size(731, 497)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.BtnClear)
+        Me.Controls.Add(Me.BtnSubmit)
         Me.Controls.Add(Me.TxtBookType)
         Me.Controls.Add(Me.LblBookType)
         Me.Controls.Add(Me.TxtCompensationPrice)
@@ -190,4 +262,7 @@ Partial Class FrmNewBook
     Friend WithEvents LblCompensationPrice As Label
     Friend WithEvents TxtBookType As TextBox
     Friend WithEvents LblBookType As Label
+    Friend WithEvents BtnSubmit As Button
+    Friend WithEvents BtnClear As Button
+    Friend WithEvents Label1 As Label
 End Class
