@@ -168,7 +168,7 @@ Partial Class FrmNewBook
         Me.TxtBookType.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TxtBookType.Location = New System.Drawing.Point(294, 279)
         Me.TxtBookType.Name = "TxtBookType"
-        Me.TxtBookType.Size = New System.Drawing.Size(114, 31)
+        Me.TxtBookType.Size = New System.Drawing.Size(204, 31)
         Me.TxtBookType.TabIndex = 15
         '
         'LblBookType
