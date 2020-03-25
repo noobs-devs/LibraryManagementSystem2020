@@ -72,7 +72,7 @@ Partial Class FrmNewBook
         '
         Me.LblTitle.AutoSize = True
         Me.LblTitle.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblTitle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblTitle.ForeColor = System.Drawing.Color.LightSlateGray
         Me.LblTitle.Location = New System.Drawing.Point(165, 78)
         Me.LblTitle.Name = "LblTitle"
         Me.LblTitle.Size = New System.Drawing.Size(115, 28)
@@ -93,7 +93,7 @@ Partial Class FrmNewBook
         '
         Me.LblEdition.AutoSize = True
         Me.LblEdition.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblEdition.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblEdition.ForeColor = System.Drawing.Color.LightSlateGray
         Me.LblEdition.Location = New System.Drawing.Point(193, 118)
         Me.LblEdition.Name = "LblEdition"
         Me.LblEdition.Size = New System.Drawing.Size(87, 28)
@@ -114,7 +114,7 @@ Partial Class FrmNewBook
         '
         Me.LblPublisher.AutoSize = True
         Me.LblPublisher.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblPublisher.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblPublisher.ForeColor = System.Drawing.Color.LightSlateGray
         Me.LblPublisher.Location = New System.Drawing.Point(172, 158)
         Me.LblPublisher.Name = "LblPublisher"
         Me.LblPublisher.Size = New System.Drawing.Size(108, 28)
@@ -135,7 +135,7 @@ Partial Class FrmNewBook
         '
         Me.LblAuthor.AutoSize = True
         Me.LblAuthor.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblAuthor.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblAuthor.ForeColor = System.Drawing.Color.LightSlateGray
         Me.LblAuthor.Location = New System.Drawing.Point(197, 199)
         Me.LblAuthor.Name = "LblAuthor"
         Me.LblAuthor.Size = New System.Drawing.Size(83, 28)
@@ -155,7 +155,7 @@ Partial Class FrmNewBook
         '
         Me.LblCompensationPrice.AutoSize = True
         Me.LblCompensationPrice.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblCompensationPrice.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblCompensationPrice.ForeColor = System.Drawing.Color.LightSlateGray
         Me.LblCompensationPrice.Location = New System.Drawing.Point(67, 240)
         Me.LblCompensationPrice.Name = "LblCompensationPrice"
         Me.LblCompensationPrice.Size = New System.Drawing.Size(213, 28)
@@ -175,7 +175,7 @@ Partial Class FrmNewBook
         '
         Me.LblBookType.AutoSize = True
         Me.LblBookType.Font = New System.Drawing.Font("Sitka Small", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblBookType.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LblBookType.ForeColor = System.Drawing.Color.LightSlateGray
         Me.LblBookType.Location = New System.Drawing.Point(163, 282)
         Me.LblBookType.Name = "LblBookType"
         Me.LblBookType.Size = New System.Drawing.Size(117, 28)
@@ -222,7 +222,7 @@ Partial Class FrmNewBook
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.NavajoWhite
+        Me.BackColor = System.Drawing.Color.Silver
         Me.ClientSize = New System.Drawing.Size(731, 497)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnClear)
