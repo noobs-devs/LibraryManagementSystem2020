@@ -22,6 +22,7 @@ Partial Class FrmStaff
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmStaff))
         Me.TxtId = New System.Windows.Forms.TextBox()
         Me.LblId = New System.Windows.Forms.Label()
         Me.TxtFirstName = New System.Windows.Forms.TextBox()
@@ -189,6 +190,7 @@ Partial Class FrmStaff
         Me.Controls.Add(Me.LblFirstName)
         Me.Controls.Add(Me.TxtId)
         Me.Controls.Add(Me.LblId)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FrmStaff"
         Me.Text = "Staff"
         Me.ResumeLayout(False)

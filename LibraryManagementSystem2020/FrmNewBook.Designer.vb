@@ -22,6 +22,7 @@ Partial Class FrmNewBook
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmNewBook))
         Me.TxtId = New System.Windows.Forms.TextBox()
         Me.LblId = New System.Windows.Forms.Label()
         Me.TxtTitle = New System.Windows.Forms.TextBox()
@@ -241,6 +242,7 @@ Partial Class FrmNewBook
         Me.Controls.Add(Me.LblTitle)
         Me.Controls.Add(Me.TxtId)
         Me.Controls.Add(Me.LblId)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FrmNewBook"
         Me.Text = "New Book"
         Me.ResumeLayout(False)

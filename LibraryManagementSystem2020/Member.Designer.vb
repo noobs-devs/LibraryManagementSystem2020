@@ -22,6 +22,7 @@ Partial Class FrmNewMember
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmNewMember))
         Me.LblId = New System.Windows.Forms.Label()
         Me.TxtId = New System.Windows.Forms.TextBox()
         Me.TxtFirstName = New System.Windows.Forms.TextBox()
@@ -46,9 +47,9 @@ Partial Class FrmNewMember
         Me.TxtJoiningDate = New System.Windows.Forms.TextBox()
         Me.LblJoiningDate = New System.Windows.Forms.Label()
         Me.GrpBxMemberType = New System.Windows.Forms.GroupBox()
-        Me.RBtnGold = New System.Windows.Forms.RadioButton()
-        Me.RBtnSilver = New System.Windows.Forms.RadioButton()
         Me.RBtnBronze = New System.Windows.Forms.RadioButton()
+        Me.RBtnSilver = New System.Windows.Forms.RadioButton()
+        Me.RBtnGold = New System.Windows.Forms.RadioButton()
         Me.GrpBxMemberType.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -249,16 +250,16 @@ Partial Class FrmNewMember
         Me.GrpBxMemberType.TabIndex = 27
         Me.GrpBxMemberType.TabStop = False
         '
-        'RBtnGold
+        'RBtnBronze
         '
-        Me.RBtnGold.AutoSize = True
-        Me.RBtnGold.Location = New System.Drawing.Point(11, 12)
-        Me.RBtnGold.Name = "RBtnGold"
-        Me.RBtnGold.Size = New System.Drawing.Size(47, 17)
-        Me.RBtnGold.TabIndex = 0
-        Me.RBtnGold.TabStop = True
-        Me.RBtnGold.Text = "Gold"
-        Me.RBtnGold.UseVisualStyleBackColor = True
+        Me.RBtnBronze.AutoSize = True
+        Me.RBtnBronze.Location = New System.Drawing.Point(11, 58)
+        Me.RBtnBronze.Name = "RBtnBronze"
+        Me.RBtnBronze.Size = New System.Drawing.Size(58, 17)
+        Me.RBtnBronze.TabIndex = 2
+        Me.RBtnBronze.TabStop = True
+        Me.RBtnBronze.Text = "Bronze"
+        Me.RBtnBronze.UseVisualStyleBackColor = True
         '
         'RBtnSilver
         '
@@ -271,16 +272,16 @@ Partial Class FrmNewMember
         Me.RBtnSilver.Text = "Silver"
         Me.RBtnSilver.UseVisualStyleBackColor = True
         '
-        'RBtnBronze
+        'RBtnGold
         '
-        Me.RBtnBronze.AutoSize = True
-        Me.RBtnBronze.Location = New System.Drawing.Point(11, 58)
-        Me.RBtnBronze.Name = "RBtnBronze"
-        Me.RBtnBronze.Size = New System.Drawing.Size(58, 17)
-        Me.RBtnBronze.TabIndex = 2
-        Me.RBtnBronze.TabStop = True
-        Me.RBtnBronze.Text = "Bronze"
-        Me.RBtnBronze.UseVisualStyleBackColor = True
+        Me.RBtnGold.AutoSize = True
+        Me.RBtnGold.Location = New System.Drawing.Point(11, 12)
+        Me.RBtnGold.Name = "RBtnGold"
+        Me.RBtnGold.Size = New System.Drawing.Size(47, 17)
+        Me.RBtnGold.TabIndex = 0
+        Me.RBtnGold.TabStop = True
+        Me.RBtnGold.Text = "Gold"
+        Me.RBtnGold.UseVisualStyleBackColor = True
         '
         'FrmNewMember
         '
@@ -313,6 +314,7 @@ Partial Class FrmNewMember
         Me.Controls.Add(Me.TxtId)
         Me.Controls.Add(Me.LblId)
         Me.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FrmNewMember"
         Me.Text = "New Member"
         Me.GrpBxMemberType.ResumeLayout(False)
